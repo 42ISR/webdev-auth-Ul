@@ -27,7 +27,6 @@ const MyMessages = () => {
     }, [])
 
     const currentUserId = user?.user?.id
-    const myMessages = messages.filter((m) => m.userId === currentUserId)
 
     return (
         <>
